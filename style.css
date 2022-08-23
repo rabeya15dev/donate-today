@@ -1,11 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 .donation-pic {
     width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
 }
 
 
@@ -15,13 +16,12 @@ body {
 }
 
 .center {
-
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(black);
+
 
 }
 
@@ -164,6 +164,24 @@ body {
     height: 53px;
     left: 569px;
     top: 1658px;
+}
+
+
+.updates {
+    text-align: center;
+}
+
+.form-color {
+    display: inline-flex;
+    background-color: #FF5959;
+    width: 809px;
+    height: 200px;
+    left: 316px;
+    top: 3442px;
+}
+
+.form-color form {
+    color: aquamarine;
 }
 
 footer {
